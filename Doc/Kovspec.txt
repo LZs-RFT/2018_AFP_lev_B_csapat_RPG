@@ -3,7 +3,10 @@ RPG projekt
 
 1. Bevezetés
 Szép az élet!
+<<<<<<< HEAD
 
 2. Beleírtam megint
+=======
+>>>>>>> e4b2d9d0d1e14c62e930974e23a7f049dd169b35
 
 3. Próba
