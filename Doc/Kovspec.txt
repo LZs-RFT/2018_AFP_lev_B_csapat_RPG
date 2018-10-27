@@ -9,5 +9,6 @@ Az onlinel sokkal tobb ugyfelet tudnak elerni.
 2. Leírás
 
 3. Platform
+hjh
 
 4. Követelmény lista
