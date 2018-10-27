@@ -1,9 +1,8 @@
-Webshop Projekt
+﻿Webshop Projekt
 -----------
 
 1. Bevezet�s
-Sz�p az �let!
 
-2. Bele�rtam megint
+2. Leírás
 
-3. Proba
+3. Követelmény lista
