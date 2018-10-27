@@ -1,8 +1,7 @@
-Webshop Projekt
+﻿Webshop Projekt
 -----------
 
 1. Bevezet�s
-Sz�p az �let!
 
 2. Bele�rtam megint
 
