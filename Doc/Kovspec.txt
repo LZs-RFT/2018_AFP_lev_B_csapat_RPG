@@ -3,7 +3,7 @@
 
 1. Bevezetés
 A projekt feladat egy webshop létrehozása.
-A weboldal egy kisallatkereskedes tovabbfejlesztesere szolgal majd.
+A weboldal egy kisallatkereskedes tovabbfejlesztesere szolgal majd. A weboldal neve: PetShop.
 Az onlinel sokkal tobb ugyfelet tudnak elerni.
 
 2. Leírás
@@ -14,3 +14,5 @@ HTML es PHP nyelven fejlesztunk JavaScript es CSS-el a temakat.
 Illetve az adatokat MYSQL- DB-ben kezeljuk majd.
 
 4. Követelmény lista
+- Bejelentkezési, regisztrációs felület
+- Termékek megjelenítése (admin oldal: termékek feltöltése/szerkesztése)
