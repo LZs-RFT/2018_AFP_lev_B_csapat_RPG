@@ -1,7 +1,8 @@
 ﻿Webshop Projekt
 -----------
 
-1. Bevezet�s
+1. Bevezetés
+A projekt feladat egy webshop létrehozása.
 
 2. Leírás
 
