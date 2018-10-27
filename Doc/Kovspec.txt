@@ -3,6 +3,8 @@
 
 1. Bevezetés
 A projekt feladat egy webshop létrehozása.
+A weboldal egy kisallatkereskedes tovabbfejlesztesere szolgal majd.
+Az onlinel sokkal tobb ugyfelet tudnak elerni.
 
 2. Leírás
 
