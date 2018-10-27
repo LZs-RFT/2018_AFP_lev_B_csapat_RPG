@@ -1,7 +1,5 @@
 <?php
-<html>
+require("../resources/config.php");
 
-  <title>PetShop</title>
-  <h1>Welcome screen</h1>
-</html>
+include_once(TEMPLATE_FRONT . "header.php");
 ?>
