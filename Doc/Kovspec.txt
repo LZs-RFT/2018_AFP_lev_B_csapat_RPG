@@ -1,12 +1,9 @@
-RPG projekt
+Webshop Projekt
 -----------
 
-1. Bevezetés
-Szép az élet!
-<<<<<<< HEAD
+1. Bevezetï¿½s
+Szï¿½p az ï¿½let!
 
-2. Beleírtam megint
-=======
->>>>>>> e4b2d9d0d1e14c62e930974e23a7f049dd169b35
+2. Beleï¿½rtam megint
 
-3. Próba
+3. Proba
