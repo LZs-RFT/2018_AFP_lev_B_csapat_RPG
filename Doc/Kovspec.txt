@@ -6,4 +6,6 @@ A projekt feladat egy webshop létrehozása.
 
 2. Leírás
 
-3. Követelmény lista
+3. Platform
+
+4. Követelmény lista
