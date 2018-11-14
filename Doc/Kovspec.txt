@@ -16,3 +16,8 @@ Illetve az adatokat MYSQL- DB-ben kezeljuk majd.
 4. Követelmény lista
 - Bejelentkezési, regisztrációs felület
 - Termékek megjelenítése (admin oldal: termékek feltöltése/szerkesztése)
+- Termékek keresése, szűrése
+
+4.1. Keresés, szűrés </L. Zsolti>
+Keresés gomb a főoldalra, ami átnavigál a kersés lapra.
+Keresés lap: keresés tulajdonságoktól függően.
