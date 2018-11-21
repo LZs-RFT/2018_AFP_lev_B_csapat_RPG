@@ -21,3 +21,15 @@ Illetve az adatokat MYSQL- DB-ben kezeljuk majd.
 4.1. Keresés, szűrés </L. Zsolti>
 Keresés gomb a főoldalra, ami átnavigál a kersés lapra.
 Keresés lap: keresés tulajdonságoktól függően.
+
+4.2. Adatfeltöltés 
+Adminisztrációs felület létrehozása a kutyák adatainak feltöltésére, módosítására, törlésére.
+Alternatív eset: érvénytelen adatok bevitelének megakadályozása.
+A feltöltendő adatok:
+- Kutya neve
+- Szőrhossz
+- Frizura
+- Ugatás hangereje
+- Játékosság
+- Méret (kicsi, közpes, nagy)
+- Kép
