@@ -11,10 +11,14 @@ Funkcionális specifikáció
 
 
 2.2.	Adminisztrációs oldal </N. Ancsa>
-Az adminisztrációs oldal az admin mappában kerül tárolásra.
-Az admin belépése itt történik felhasználónévvel és jelszóval.
+Az adminisztrációs oldalra az admin a /admin aloldalon keresztül tud bejelentkezni.
+Itt elsõkörben egy bejelentkezési felület nyílik meg, ahol az adminhoz megadott felhasználónévvel és 
+jelszóval tud bejelentkezni. Az admin felhasználó vagy az adatbázisban kerül tárolásra vagy a programban
+lesz rögzítve a hozzátartozó felhasználónév és jelszó.
 Belépést követõen az adatbázisban tárolt termékek (kutyák) jelennek meg. Ezek szerkeszthetõk és törölhetõk.
 Valamint az "új kutya felvétele" menüpont alatt újabb kutyát tud létrehozni az admin.
+Az adatbevitel form-on keresztül történik új rekord létrehozása és szerkesztése esetén is.
+
 
 
 3.	Adatbázistervezés
