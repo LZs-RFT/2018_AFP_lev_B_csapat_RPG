@@ -1,0 +1,13 @@
+Funkcionális specifikáció
+-------------------------
+
+1.	Webshop oldalszerkezete
+
+2.	Oldalak
+2.1.	Felhasználói oldal
+
+2.2.	Adminisztrációs oldal
+
+3.	Adatbázistervezés
+
+4.	Adattáblák
