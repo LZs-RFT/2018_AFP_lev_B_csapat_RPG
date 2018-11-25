@@ -3,11 +3,24 @@ Funkcionális specifikáció
 
 1.	Webshop oldalszerkezete
 
+
+
 2.	Oldalak
+
 2.1.	Felhasználói oldal
 
-2.2.	Adminisztrációs oldal
+
+2.2.	Adminisztrációs oldal </N. Ancsa>
+Az adminisztrációs oldal az admin mappában kerül tárolásra.
+Az admin belépése itt történik felhasználónévvel és jelszóval.
+Belépést követõen az adatbázisban tárolt termékek (kutyák) jelennek meg. Ezek szerkeszthetõk és törölhetõk.
+Valamint az "új kutya felvétele" menüpont alatt újabb kutyát tud létrehozni az admin.
+
 
 3.	Adatbázistervezés
 
-4.	Adattáblák
+
+
+4. 	Adattáblák
+
+
