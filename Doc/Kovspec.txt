@@ -22,14 +22,13 @@ Illetve az adatokat MYSQL- DB-ben kezeljuk majd.
 Keresés gomb a főoldalra, ami átnavigál a kersés lapra.
 Keresés lap: keresés tulajdonságoktól függően.
 
-4.2. Adatfeltöltés 
+4.2. Adatfeltöltés </N. Ancsa>
 Adminisztrációs felület létrehozása a kutyák adatainak feltöltésére, módosítására, törlésére.
 Alternatív eset: érvénytelen adatok bevitelének megakadályozása.
 A feltöltendő adatok:
 - Kutya neve
-- Szőrhossz
-- Frizura
-- Ugatás hangereje
-- Játékosság
+- Szőrhossz (hosszó, közepes, rövid)
+- Ugatás hangereje (hangos, halk)
+- Játékosság (virgonc, nyugodt, lusta)
 - Méret (kicsi, közpes, nagy)
 - Kép
