@@ -21,6 +21,43 @@ Illetve az adatokat MYSQL- DB-ben kezeljuk majd.
 4.1. Keresés, szűrés </L. Zsolti>
 Keresés gomb a főoldalra, ami átnavigál a kersés lapra.
 Keresés lap: keresés tulajdonságoktól függően.
+A keresés lapon a keresés gomb kilistázza az adatbázis minden elemét, a megadott opciók alapján lehet módosítani a szűrést.
+TODO: kicsit bugosan működi, van olyan eset, hogy nem működik rendeltetésszerűen a szűrés, oka számomra még ismeretlen.
+A kutya nevére kattintva, a link átnavigál egy olyan oldalra ahol minden részlet megtekinthető a kutyáról.
+TODO: kiegészíteni, ha már az adatbázis teljesen kész.
+
+4.1.1. A Keresés fájlok részletezése </L. Zsolti>
+/core/config.php: Ide ídtam meg a próba adatbázis alapértelmezett konstansait.
+  -Az adatbázis típusát(MySQL)
+  -A hostname: ami most a localhost, mappa alapértelmeztt a xampp-nál: //xampp/htdocs
+  -Az adatbázis neve: petshop
+  -Az adatbázis adminja és az admin jelszava: ezt alapértelmezetten hagytam (felhasználó: root, jelszó nincs)
+  
+/core/database.php: az adatbázissal való kommunikáció
+  -meghívjuk a config.php-t a konstansok miatt
+  -getConnection: megpróbálunk csatlakozni az atbázisr, ha nemsikerül dobjon hibaüzenetet
+  -closeConnection: csatlakozás bezárása
+  -QL_array: az adatbázisbeli összes elemet lekérdezi
+  -QL_row: egy rekord lekérdezése az adatbázisból
+  
+/search/index.php
+  -include_once '../core/database.php';: meghívjuk az adatbázis eléréséhez és a kilistázáshoz szükséges lekérdezés függvényeket
+  -a részletes szűrést megvalósító HTML elemek
+  -meghívjuk a megjelenítéshez szükséges utasítássorozatot
+ 
+/search/content.php: 
+  -Ez a fájl győződik meg arról, hogy bitzosan létezik-e a keresés(megnyomták-e agombot és van e post-tömbben valami),
+    illetve, mikor egy elemet listázunk ki részletesen, leellenőrizzük az eseményt, ha igen akkor meghívja az oldalakat,
+    amik a további munkát végzik
+  
+/search/itemcard.php
+  -Egyetlen elem kilistázásával foglalkozik, megvalósítja a lekérdezést
+  -a lekérdezésből kapott eredményt táblázatba illeszti.
+  
+/search/searchitem.php
+  -Minden elemet kilistáz az adatbázisban
+  -lellenőrzi a részletes szűrésből kapott értékeket, ehhez mérten módosítja a lekerdézést az adatbázisból
+  -Táblázatba rendezi a lehérdezés eredményeit.
 
 4.2. Adatfeltöltés </N. Ancsa>
 Adminisztrációs felület létrehozása a kutyák adatainak feltöltésére, módosítására, törlésére.
