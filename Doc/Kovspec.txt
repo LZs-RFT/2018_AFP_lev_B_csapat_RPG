@@ -64,8 +64,8 @@ Adminisztrációs felület létrehozása a kutyák adatainak feltöltésére, m�
 Alternatív eset: érvénytelen adatok bevitelének megakadályozása.
 A feltöltendő adatok:
 - Kutya neve
+- Kutya fajtája
 - Szőrhossz (hosszó, közepes, rövid)
 - Ugatás hangereje (hangos, halk)
-- Játékosság (virgonc, nyugodt, lusta)
 - Méret (kicsi, közpes, nagy)
 - Kép
