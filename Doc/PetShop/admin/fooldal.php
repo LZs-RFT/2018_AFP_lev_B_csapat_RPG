@@ -1,5 +1,5 @@
 <?php
-	//include_once '../core/database.php';
+	include_once '../core/database.php';
 ?>
 <!DOCTYPE html>
 <html>
