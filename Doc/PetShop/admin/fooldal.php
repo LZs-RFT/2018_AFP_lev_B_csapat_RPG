@@ -21,7 +21,6 @@
 		} else {
 			$menunum = $_GET['d'];
 		}
-		echo $menunum;
 		switch($menunum) {
 			case 0: include_once 'list.php';
 					break;

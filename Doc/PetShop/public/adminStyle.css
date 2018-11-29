@@ -1,3 +1,38 @@
 body {
+	margin: 0;
+	padding: 0;
+}
 
+#container {
+	max-width: 1200px;
+	min-width: 800px;
+	margin: 0 10%;
+	padding: 0;
+	background-image: url("images/background/header2.jpg");
+	background-repeat: no-repeat;
+}
+
+h1 {
+	margin: 0;
+	padding: 50px 0;
+}
+
+.error {
+	color: red;
+}
+
+table {
+	background-color: rgba( 255, 255, 255, 0.8 );
+}
+
+td {
+	margin: 0;
+	padding: 5px;
+	border: 1px solid black;
+}
+
+th {
+	margin: 0;
+	padding: 5px;
+	border: 1px solid black;
 }
