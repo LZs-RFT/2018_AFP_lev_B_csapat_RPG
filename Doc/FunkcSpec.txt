@@ -1,4 +1,4 @@
-Funkcion�lis specifik�ci�
+Funkcionális specifikáció
 -------------------------
 
 1.	Webshop oldalszerkezete
@@ -7,24 +7,34 @@ Funkcion�lis specifik�ci�
 
 2.	Oldalak
 
-2.1.	Felhaszn�l�i oldal
+2.1.	Felhasználói oldal
 
 
-2.2.	Adminisztr�ci�s oldal </N. Ancsa>
-Az adminisztr�ci�s oldalra az admin a /admin aloldalon kereszt�l tud bejelentkezni.
-Itt els�k�rben egy bejelentkez�si fel�let ny�lik meg, ahol az adminhoz megadott felhaszn�l�n�vvel �s 
-jelsz�val tud bejelentkezni. Az admin felhaszn�l� vagy az adatb�zisban ker�l t�rol�sra vagy a programban
-lesz r�gz�tve a hozz�tartoz� felhaszn�l�n�v �s jelsz�.
-Bel�p�st k�vet�en az adatb�zisban t�rolt term�kek (kuty�k) jelennek meg. Ezek szerkeszthet�k �s t�r�lhet�k.
-Valamint az "�j kutya felv�tele" men�pont alatt �jabb kuty�t tud l�trehozni az admin.
-Az adatbevitel form-on kereszt�l t�rt�nik �j rekord l�trehoz�sa �s szerkeszt�se eset�n is.
+2.2.	Adminisztrációs oldal </N. Ancsa>
+Az adminisztrációs oldalra az admin a /admin aloldalon keresztül tud bejelentkezni.
+Itt elsőkörben egy bejelentkezési felület nyílik meg, ahol az adminhoz megadott felhasználónévvel és 
+jelszóval tud bejelentkezni. Az admin felhasználó vagy az adatbázisban kerül tárolásra vagy a programban
+lesz rögzítve a hozzátartozó felhasználónév és jelszó.
+Belépést követően az adatbázisban tárolt termékek (kutyák) jelennek meg. Ezek szerkeszthetők és törölhetők.
+Valamint az "új kutya felvétele" menüpont alatt újabb kutyát tud létrehozni az admin.
+Az adatbevitel form-on keresztül történik új rekord létrehozása és szerkesztése esetén is.
+
+2.3 Keresés oldal </L. Zsolt>
+A keresés oldalon az a adatbázisra szűrten lehet kereseni, elemeket kilistázni.
+Ha nincs semmilyen szűrő bekapcsolva, nincs keresett szöveg, akkor a teljes adatbázis listázásra kerül.
+Több elem kilistázásánál csak a szűrő által megadott keresési lehetőségek jelenjenek meg, ne minden mező.
+Célzott keresés, ha cask egy keresési opciót választ a felhasználó, csak arra legyen szűrés. Ebbe
+beletartozik a szövegmező is.
+Kombinált keresés ha több dolgot választ ki a felhasználó, ekkor a szűrt tulajdonságok mindegyike megjelenik,
+nem kizárásos alapon, tehát ha például hosszú szőrű és kis termetű kutyálat is kres a felhasználó, akkor legyen
+megjelenítve akkor is a kutya ha nagy és hosszú szőrű vagy kis termetű és rövid szőrű a kutya.
+Ha a felhasználó rákattint a kilistázott elemek közzül a kutya nevére, akkor az navigáljon egy másik oldalra,
+ahol minden mezője megjelenik az adott kutyának.
+
+3.	Adatbázistervezés
 
 
 
-3.	Adatb�zistervez�s
-
-
-
-4. 	Adatt�bl�k
+4. 	Adattáblák
 
 
