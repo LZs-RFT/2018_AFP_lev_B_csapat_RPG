@@ -6,15 +6,21 @@ body {
 #container {
 	max-width: 1200px;
 	min-width: 800px;
-	margin: 0 10%;
+	margin: 0 20%;
 	padding: 0;
 	background-image: url("images/background/header2.jpg");
 	background-repeat: no-repeat;
 }
 
 h1 {
+	font-size: 3em;
 	margin: 0;
-	padding: 50px 0;
+	padding: 30px 0 200px 100px;
+	color: white;
+}
+
+#menu {
+	text-align: right;
 }
 
 .error {
@@ -27,12 +33,12 @@ table {
 
 td {
 	margin: 0;
-	padding: 5px;
+	padding: 5px 10px;
 	border: 1px solid black;
 }
 
 th {
 	margin: 0;
-	padding: 5px;
+	padding: 5px 20px;
 	border: 1px solid black;
 }

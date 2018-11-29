@@ -6,13 +6,12 @@
 <head>
 	<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
 	<meta http-equiv="Content-Language" content="hu" />
-	<link rel="stylesheet" type="text/css" href="public/adminStyle.css" />
+	<link rel="stylesheet" type="text/css" href="../public/adminStyle.css" />
 	<title>Petshop admin</title>
 </head>
 <body>
 	<div id="container">
 		<h1>Petshop admin</h1>
-		<div id="menu"><a href="fooldal.php?d=1">Új kutya</a></div>
 		<div id="content">
 		<?php
 		//Az url-ből kiolvasom, hogy melyik menüpontra kattintott a felhasználó:

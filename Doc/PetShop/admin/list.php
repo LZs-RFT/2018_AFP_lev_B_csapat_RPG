@@ -2,6 +2,7 @@
 	$query = "SELECT * FROM kutya";
 	$kutyak = QL_array($query);
 ?>
+<div id="menu"><a href="fooldal.php?d=1">Új kutya</a></div>
 <table>
 	<!-- Fejléc -->
 	<tr>
