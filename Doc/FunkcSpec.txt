@@ -1,4 +1,4 @@
-Funkcionális specifikáció
+﻿Funkcionális specifikáció
 -------------------------
 
 1.	Webshop oldalszerkezete
@@ -30,6 +30,11 @@ nem kizárásos alapon, tehát ha például hosszú szőrű és kis termetű kut
 megjelenítve akkor is a kutya ha nagy és hosszú szőrű vagy kis termetű és rövid szőrű a kutya.
 Ha a felhasználó rákattint a kilistázott elemek közzül a kutya nevére, akkor az navigáljon egy másik oldalra,
 ahol minden mezője megjelenik az adott kutyának.
+
+2.4	Regisztrációs + bejelentkező oldal
+
+	A regisztrációs oldalon a weboldal látógatói a nevük, email címük és egy jelszó megadásával regisztrálni tudnak. A regisztrált felhasználók a bejelentkezés után lehetőséget kapnak a webshopból való vásárlásra.
+
 
 3.	Adatbázistervezés
 
