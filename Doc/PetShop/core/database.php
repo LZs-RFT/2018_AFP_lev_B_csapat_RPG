@@ -1,5 +1,4 @@
 <?php
-// --- L.Zsolti-tól átvéve ---
 require_once 'config.php';
 function getConnection(){
 try {

@@ -1,4 +1,4 @@
-Funkcionális specifikáció
+﻿Funkcionális specifikáció
 -------------------------
 
 1.	Webshop oldalszerkezete
@@ -18,6 +18,8 @@ lesz rögzítve a hozzátartozó felhasználónév és jelszó.
 Belépést követően az adatbázisban tárolt termékek (kutyák) jelennek meg. Ezek szerkeszthetők és törölhetők.
 Valamint az "új kutya felvétele" menüpont alatt újabb kutyát tud létrehozni az admin.
 Az adatbevitel form-on keresztül történik új rekord létrehozása és szerkesztése esetén is.
+Az adatok feltöltésére fájlból van lehetőség. A főoldalon elérhető a "feltöltés fájlból" menü pont.
+Itt kell kiválasztani egy csv formátumú fájlt, majd a feltölt gombbal az adatok feltöltésre kerülnek.
 
 2.3 Keresés oldal </L. Zsolt>
 A keresés oldalon az a adatbázisra szűrten lehet kereseni, elemeket kilistázni.
@@ -30,6 +32,11 @@ nem kizárásos alapon, tehát ha például hosszú szőrű és kis termetű kut
 megjelenítve akkor is a kutya ha nagy és hosszú szőrű vagy kis termetű és rövid szőrű a kutya.
 Ha a felhasználó rákattint a kilistázott elemek közzül a kutya nevére, akkor az navigáljon egy másik oldalra,
 ahol minden mezője megjelenik az adott kutyának.
+
+2.4	Regisztrációs + bejelentkező oldal
+
+	A regisztrációs oldalon a weboldal látógatói a nevük, email címük és egy jelszó megadásával regisztrálni tudnak. A regisztrált felhasználók a bejelentkezés után lehetőséget kapnak a webshopból való vásárlásra.
+
 
 3.	Adatbázistervezés
 

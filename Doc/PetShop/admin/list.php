@@ -3,6 +3,7 @@
 	$kutyak = QL_array($query);
 ?>
 <p class="menu"><a href="fooldal.php?d=1">Új kutya</a></p>
+<p class="menu"><a href="fooldal.php?d=4">Feltöltés fájlból</a></p>
 <table>
 	<!-- Fejléc -->
 	<tr>
@@ -30,4 +31,3 @@
 	</tr>
 <?php } ?>
 </table>
-<p class="menu"><a href="fooldal.php?d=4">Feltöltés fájlból</a></p>
