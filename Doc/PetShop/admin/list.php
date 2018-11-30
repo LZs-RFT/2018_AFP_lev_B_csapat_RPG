@@ -2,7 +2,7 @@
 	$query = "SELECT * FROM kutya";
 	$kutyak = QL_array($query);
 ?>
-<div id="menu"><a href="fooldal.php?d=1">Új kutya</a></div>
+<p class="menu"><a href="fooldal.php?d=1">Új kutya</a></p>
 <table>
 	<!-- Fejléc -->
 	<tr>
@@ -30,3 +30,4 @@
 	</tr>
 <?php } ?>
 </table>
+<p class="menu"><a href="fooldal.php?d=4">Feltöltés fájlból</a></p>

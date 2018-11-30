@@ -29,6 +29,8 @@
 					break;
 			case 3: include_once 'delete.php';
 					break;
+			case 4: include_once 'fajl.php';
+					break;
 			default: include_once 'list.php';
 					break;
 		}
