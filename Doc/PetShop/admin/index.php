@@ -13,7 +13,7 @@ if (array_key_exists('login', $_POST)) {
 <head>
 	<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
 	<meta http-equiv="Content-Language" content="hu" />
-	<link rel="stylesheet" type="text/css" href="public/adminStyle.css" />
+	<link rel="stylesheet" type="text/css" href="../public/adminStyle.css" />
 	<title>Admin</title>
 </head>
 <body>
