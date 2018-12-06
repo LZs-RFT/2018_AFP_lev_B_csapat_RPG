@@ -16,7 +16,7 @@ include(TEMPLATE_FRONT. "header.php");
 <title>PEt Shop</title>
 <meta charset="UTF-8">
 <link rel="stylesheet" href= "../resources/styles/layout.css" type="text/css">
-<!--[if lt IE 9]><script src="scripts/html5shiv.js"></script><![endif]-->
+
 </head>
 <body>
 

@@ -1,3 +1,6 @@
+<?php
+require_once("../resources/config.php");
+?>
 <div class="wrapper row1">
   <header id="header" class="clear">
     <div id="hgroup">
@@ -14,11 +17,13 @@
     <nav>
       <ul>
         <li><a href="http://localhost/Doc/PetShop/search/index.php">Keresés</a></li>
-        <li><a href="#">Text Link</a></li>
-        <li><a href="#">Text Link</a></li>
-        <li><a href="#">Text Link</a></li>
+        <li><a href="http://localhost/Doc/PetShop/reg/login.php">Login</a></li>
+        <li><a href="http://localhost/Doc/PetShop/reg/register.php">Registration</a></li>
+        <li><a href="http://localhost/Doc/PetShop/admin/index.php">Admin</a></li>
         <li class="last"><a href="#">Text Link</a></li>
       </ul>
     </nav>
   </header>
 </div>
+
+
