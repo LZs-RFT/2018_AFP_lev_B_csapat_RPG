@@ -2,7 +2,7 @@
 <div class="wrapper row2">
   <div id="container" class="clear">
     <!-- content body -->
-    <section id="slider"><a href="#"><img src="images/demo/960x360.gif" alt=""></a></section>
+    <section id="slider"><a href="#"><img src="https://www.thinkinsurance.co.uk/uploads/archive/content_pets-fireworks-yellow_861388.jpg" alt="SEMMI"></a></section>
     <section id="shout">
       <p>Vestibulumaccumsan egestibulum eu justo convallis augue estas aenean elit intesque sed. Facilispede estibulum nulla orna nisl velit elit ac aliquat non tincidunt namjusto cras urna.</p>
     </section>
@@ -28,7 +28,6 @@
           <p class="more"><a href="#">Read More &raquo;</a></p>
         </article>
       </section>
-
 
       <h1>Latest From The Gallery</h1>
       <section id="latest" class="last clear">

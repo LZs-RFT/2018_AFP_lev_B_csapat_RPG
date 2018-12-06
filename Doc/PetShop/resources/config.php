@@ -11,7 +11,4 @@ defined("TEMPLATE_FRONT") ? null : define("TEMPLATE_FRONT", __DIR__ . DS . "/tem
 defined("TEMPLATE_BACK") ? null : define("TEMPLATE_BACK", __DIR__ . DS . "/templates/back/");
 defined("SEARCH") ? null : define("SEARCH", __DIR__ . "../". DS . "/search/");
 
-
-//defined("TEMPLATE_FRONT") ? null : define("TEMPLATE_FRONT", $_SERVER['DOCUMENT_ROOT'] . "/AFP_2018/Doc/PetShop/resources/templates/front/");
-
 ?>
