@@ -7,7 +7,42 @@ A weboldal egy kisallatkereskedes tovabbfejlesztesere szolgal majd. A weboldal n
 Az onlinel sokkal tobb ugyfelet tudnak elerni.
 
 2. Leírás
-Loginhoz kotve lehessen vasarolni a feluleten. Login nelkul is elerhetoek a bizonyos funkciok.
+
+A fooldalra belepve elerhetoek legyenek a kovetkezo almenuk:
+  * Login
+    A korabban regisztralt felhasznalok a felhasznalonevuket es jelszavakat beirva bejelentkezhetnek az oldalra.
+    Es a bejelentkezett allapotban megtekinthetove vallnak azok az odlalak amelyek bejelenetkezeshez kotottek.
+  * Kereses
+    A kulcsszavas kereses mezoinket kitoltesevel az adatbazisban kereshetunk az adatbazisban tarolt adatok kozott.
+    Lehetseges Legyen a kereses a kovetkezo parameterek szerint:
+      - Ugatas
+        * null
+        * hangos
+        * halk
+      - Szorhossz
+        * hosszu
+        * kozepes
+        * rovid
+      - Meret
+        * Nagy
+        * kozepes
+        * kicsi
+        * null
+      
+  * Admin oldal
+    Csak az admin jogkorrel rendelkezo felhasznalok tudnak ide belepni.
+    Authenticaio utan elerheto az admin felulet amin lehetoseg van uj adatokat felvenni az adatbazisba
+    es boviteni a weboldal kinalatat.
+  * Regisztracios oldal
+    A regisztracio a kovetkezo kotelezo adatok kitoltese utana lehetseg:
+      *Teljesnev
+      *Emailcim
+      *Jelszo
+      *Felhasznalonev
+    A regisztracio utan a felhasznalo adatait taroljuk az adatbazisban igy biztositjuk
+    ,hogy betudjun lepni az oldalra es elerje a bejelentkezeshez kotott oldalak tartalmat.
+    Loginhoz kotott oldal a Vasarlasi felulete a  weboldalnak.
+
 
 3. Platform
 HTML es PHP nyelven fejlesztunk JavaScript es CSS-el a temakat.
@@ -32,28 +67,28 @@ TODO: kiegészíteni, ha már az adatbázis teljesen kész.
   -A hostname: ami most a localhost, mappa alapértelmeztt a xampp-nál: //xampp/htdocs
   -Az adatbázis neve: petshop
   -Az adatbázis adminja és az admin jelszava: ezt alapértelmezetten hagytam (felhasználó: root, jelszó nincs)
-  
+
 /core/database.php: az adatbázissal való kommunikáció
   -meghívjuk a config.php-t a konstansok miatt
   -getConnection: megpróbálunk csatlakozni az atbázisr, ha nemsikerül dobjon hibaüzenetet
   -closeConnection: csatlakozás bezárása
   -QL_array: az adatbázisbeli összes elemet lekérdezi
   -QL_row: egy rekord lekérdezése az adatbázisból
-  
+
 /search/index.php
   -include_once '../core/database.php';: meghívjuk az adatbázis eléréséhez és a kilistázáshoz szükséges lekérdezés függvényeket
   -a részletes szűrést megvalósító HTML elemek
   -meghívjuk a megjelenítéshez szükséges utasítássorozatot
- 
-/search/content.php: 
+
+/search/content.php:
   -Ez a fájl győződik meg arról, hogy bitzosan létezik-e a keresés(megnyomták-e agombot és van e post-tömbben valami),
     illetve, mikor egy elemet listázunk ki részletesen, leellenőrizzük az eseményt, ha igen akkor meghívja az oldalakat,
     amik a további munkát végzik
-  
+
 /search/itemcard.php
   -Egyetlen elem kilistázásával foglalkozik, megvalósítja a lekérdezést
   -a lekérdezésből kapott eredményt táblázatba illeszti.
-  
+
 /search/searchitem.php
   -Minden elemet kilistáz az adatbázisban
   -lellenőrzi a részletes szűrésből kapott értékeket, ehhez mérten módosítja a lekerdézést az adatbázisból
@@ -72,7 +107,7 @@ A feltöltendő adatok:
 Fájlból is legyen lehetőség az adatok feltöltésére.
 
 4.3 Struktura
-	4.3.1 Public 
+	4.3.1 Public
 		Publikus allomanyban vannak azok az oldalak es resourcok amik 				bejelentkezes nelkul elerhetoek a felhasznalo szamara.
 	4.3.2 Admin
 		Csak azok a userek szamara elerheto ennek a tartalma aki admin 		jogosultsagu user.
