@@ -1,4 +1,4 @@
-﻿Webshop Projekt
+Webshop Projekt
 -----------
 
 1. Bevezetés
@@ -70,3 +70,11 @@ A feltöltendő adatok:
 - Méret (kicsi, közpes, nagy)
 - Kép
 Fájlból is legyen lehetőség az adatok feltöltésére.
+
+4.3 Struktura
+	4.3.1 Public 
+		Publikus allomanyban vannak azok az oldalak es resourcok amik 				bejelentkezes nelkul elerhetoek a felhasznalo szamara.
+	4.3.2 Admin
+		Csak azok a userek szamara elerheto ennek a tartalma aki admin 		jogosultsagu user.
+	4.3.3 Registritaion
+		A registracios oldal minden user szamara elerheto.
