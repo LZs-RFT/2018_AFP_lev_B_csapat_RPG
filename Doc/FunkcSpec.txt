@@ -33,8 +33,7 @@ ahol minden mezője megjelenik az adott kutyának.
 
 2.4	Regisztrációs + bejelentkező oldal
 
-	A regisztrációs oldalon a weboldal látógatói a teljes nevük, email címük, felhasználói nevük és egy jelszó megadásával regisztrálni tudnak. A regisztrált felhasználók a bejelentkezés után lehetőséget kapnak a webshopból való vásárlásra.
-
+	A regisztrációs oldalon a weboldal látógatói a teljes nevük, email címük, felhasználói nevük és egy jelszó megadásával regisztrálni tudnak. A regisztrált felhasználók a bejelentkezés után lehetőséget kapnak a webshopból való vásárlásra. A jelszó létrehozásakor lehetőség van a jelszó megjelenítésére, illetve a jelszó generáltatására is.
 	
 
 
