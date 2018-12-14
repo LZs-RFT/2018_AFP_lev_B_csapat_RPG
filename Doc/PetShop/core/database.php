@@ -1,5 +1,4 @@
 <?php
-
 require_once 'config.php';
 function getConnection(){
 try {
@@ -13,7 +12,6 @@ catch(PDOException $e)
     {
     echo "Connection failed: " . $e->getMessage();
 }
-
     }
     
 function closeConnection($connection){
@@ -39,4 +37,11 @@ function QL_row($query, $params = []){
         closeConnection($connection);        
         return $result;
     }
-    
+	
+function QL_modification($query, $params = []){
+        $connection = getConnection();
+        $statement = $connection->prepare($query);
+        $statement->execute($params);
+        $statement->closeCursor();
+        closeConnection($connection);
+    }

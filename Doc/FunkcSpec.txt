@@ -18,6 +18,8 @@ lesz rögzítve a hozzátartozó felhasználónév és jelszó.
 Belépést követően az adatbázisban tárolt termékek (kutyák) jelennek meg. Ezek szerkeszthetők és törölhetők.
 Valamint az "új kutya felvétele" menüpont alatt újabb kutyát tud létrehozni az admin.
 Az adatbevitel form-on keresztül történik új rekord létrehozása és szerkesztése esetén is.
+Az adatok feltöltésére fájlból van lehetőség. A főoldalon elérhető a "feltöltés fájlból" menü pont.
+Itt kell kiválasztani egy csv formátumú fájlt, majd a feltölt gombbal az adatok feltöltésre kerülnek.
 
 2.3 Keresés oldal </L. Zsolt>
 A keresés oldalon az a adatbázisra szűrten lehet kereseni, elemeket kilistázni.

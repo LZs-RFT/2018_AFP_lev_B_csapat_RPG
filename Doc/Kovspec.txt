@@ -69,3 +69,4 @@ A feltöltendő adatok:
 - Ugatás hangereje (hangos, halk)
 - Méret (kicsi, közpes, nagy)
 - Kép
+Fájlból is legyen lehetőség az adatok feltöltésére.
