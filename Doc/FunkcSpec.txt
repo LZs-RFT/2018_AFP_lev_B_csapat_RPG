@@ -1,9 +1,9 @@
-﻿Funkcionális specifikáció
+Funkcionális specifikáció
 -------------------------
 
 1.	Webshop oldalszerkezete
 
-
+1.1	A fooldal headerjeben talalhato kereso, ileltve alatva navigacioss bar talalhato 	az implementalt 	aloldalakkal.KERESÉS bovebben lasd. a 2.3 Keresés oldal bekezdesben.A LOGIN  es REGISTRATION aloldal leirasa 	a 2.4	Regisztrációs + bejelentkező oldal bekezdesben olvashato es az ADMIN leirasa a 2.2 bekezdesben 	talalhato.
 
 2.	Oldalak
 
